@@ -1,0 +1,91 @@
+#main{
+    background-image: linear-gradient(135deg,rgba(0,0,0,.6),rgba(0,0,0,.65),rgba(155,0,0,.1)),url(/image/aaron-burden-QJDzYT_K8Xg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: baseline;
+    flex-shrink: 1;
+    padding: 10px;
+    font-size: 2.4vw;
+}
+
+#header a{
+    color: rgb(205, 241, 241);
+    text-decoration: none;
+    font-weight: 700;
+    
+}
+
+#list{
+     margin-left: -105px;
+     font-size: 70%;
+}
+
+#list li{
+    display: inline-block;
+    margin-left: 20px;
+    text-align: left;
+    padding: 4px 6px 4px 6px;
+    border-radius: 5px;  
+    background: linear-gradient(to right,transparent 51%,rgba(235, 17, 64, 0.5) 49%);
+    background-size: 200%;
+    background-position: left;
+    transition: background-position .5s;
+}
+
+#list li:hover{
+    background-position: right;
+}
+
+/*Design of the middle part*/
+
+.body{
+    position: absolute;
+    top: 40%;
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 4vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-size: 1.5vw;
+    margin:2% 6% auto 6%;
+
+}
+#slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 4.3vw;
+    overflow: hidden;
+    padding: 12px;
+    
+}
+#animate{
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 0px;
+    color: rgb(231, 41, 41);   
+    animation:animate linear 5.5s infinite;
+}
+
+@keyframes animate {
+    0%{margin-top: 20vw;}
+    5%{margin-top: 12vw;}
+    35%{margin-top: 12vw;}
+    40%{margin-top: 0px;}
+    75%{margin-top: 0px;}
+    80%{margin-top: -11vw;}
+    100%{margin-top: -11vw;}
+    
+}
+
+
+ 
